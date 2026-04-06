@@ -1,1 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrastructure for Mathematics</title>
+    <style>
+        :root {
+            --bg-color: #fdfdfd;
+            --text-color: #222;
+            --link-color: #0056b3;
+            --link-hover: #003d82;
+            --quote-border: #ccc;
+            --quote-bg: #f9f9f9;
+        }
 
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            text-rendering: optimizeLegibility;
+        }
+
+        h1 {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 2.2rem;
+            text-align: center;
+            margin-bottom: 2.5rem;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 1.4rem;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        blockquote {
+            font-style: italic;
+            margin: 2rem 2.5rem;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid var(--quote-border);
+            background-color: var(--quote-bg);
+            color: #444;
+            font-size: 1.05rem;
+        }
+
+        blockquote p {
+            margin-bottom: 0;
+            text-align: left;
+        }
+
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--link-hover);
+        }
+
+        sup {
+            font-size: 0.75em;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline;
+            top: -0.5em;
+        }
+
+        sup a {
+            padding: 0.2rem;
+        }
+
+        .acknowledgements {
+            margin-top: 3rem;
+        }
+
+        .footnotes {
+            margin-top: 4rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ccc;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .footnotes ol {
+            padding-left: 1.5rem;
+        }
+
+        .footnotes li {
+            margin-bottom: 1rem;
+        }
+
+        .references p {
+            margin-bottom: 0.8rem;
+            text-align: left;
+            text-indent: -2rem;
+            padding-left: 2rem;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: var(--link-color);
+            margin-left: 0.5rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.5rem 1rem;
+            }
+            blockquote {
+                margin: 1.5rem 0;
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <article>
+        <header>
+            <h1>Infrastructure for Mathematics</h1>
+        </header>
+
+        <section>
+            <p>Conceived in the early 1990s, the <em>QED Manifesto</em> [1] envisioned a comprehensive, distributed, and mechanically verified library of formalized mathematics. The way I see it, similar plans should rest on a simple but profound observation:</p>
+
+            <blockquote>
+                <p>Mathematics is perhaps the only human domain where truth is <em>absolute</em> and <em>permanent</em><sup><a href="#fn1" id="ref1">1</a></sup>.</p>
+            </blockquote>
+
+            <p>Mathematics (again, perhaps) constitutes the only <em>epistemic infrastructure</em> upon which we can expand some language of discovery, uniquely decoupled from the fluctuations of culture, scientific theories, or the specifics of physical machines. In physics and theoretical computer science, to consider two fairly evident contexts, research often reduces to a search for structural alignment. We either map observable phenomena onto pre-existing mathematical frameworks, or we construct the precise formalisms required to capture them. But I don’t need to tell you this, since you have already read Wigner’s 1959 paper [2] and the (many) other similar elements of the pre- and post-Wigner saga.</p>
+
+            <p>What matters here are the following <em>details</em> from the manifesto [1]: (a) <em>“The increase of mathematical knowledge during the last two hundred years has made the knowledge, let alone understanding, of all, or even of the most important, mathematical results something beyond the capacity of any human.”</em> (b) <em>“The "noise level" of published mathematics is too high. It has been estimated that something between 50 and 100 thousand mathematical papers are published per year. Nobody knows for sure how many contain errors or how many are repetitions, but some pessimists claim the number of both is high.”</em> This was 1994.</p>
+
+            <p>Note that a massive library of formal mathematics is not merely the static cataloging of a medieval bestiary. The obsession, dream, and delirium of classification is an older fever, winding from the spinning parchment wheels of Ramon Llull in the thirteenth century to the crowded, dusty shelves of the <em>Wunderkammer</em>. It is somehow a desperate hunger for structure. Somehow, this is an absurdity that François Rabelais saw through entirely, mocking its sterile precision in <em>Gargantua and Pantagruel</em><sup><a href="#fn2" id="ref2">2</a></sup>. We are sure the QED initiative did not intend to build a bestiary. What is its point?</p>
+
+            <p>It is tempting, and perhaps even reasonable, to hand this endeavor over to the scientific accelerationists, who view a formal mathematical library primarily as a tool to "discover things faster," while it remains entirely unclear whether accelerating <em>every</em> discovery is an end we ought to pursue. I will better bypass these insidious arguments entirely and find refuge in:</p>
+
+            <blockquote>
+                <p>The actual challenge is constructing the <em>cognitive scaffolding</em> required to tackle more complex problems, leaving the easy ones to be dissolved by routine use of AI.</p>
+            </blockquote>
+
+            <p>A massive library is, in fact, a bigger (pun unintended) and exquisitely practical thing. If there is any inherent justice to our understanding of the world, then mathematics deserves the same level of protection and care that we afford to complex biological ecosystems. This evokes Charles Bennett’s theory of <em>logical depth</em> [3], which asserts that the value of a system is the mathematical labor required to generate it. Destroying a biosphere is a tragedy of lost “computational time”. The same applies to mathematics: it is an accumulated structure of cognitive work that demands preservation simply because of the time it costs to build.</p>
+
+            <p>And if we want to be less philosophical, Patrick Massot [4] has compiled a good set of practical arguments detailing why the formalization of mathematics is such a critical effort. I like two angles. One: formalization eliminates the <em>human bottleneck of trust</em>, replacing the slow consensus of specialists with immediate, mechanized certainty. Two: it prevents the <em>extinction</em> of abandoned subfields. By encoding the entire logical structure into a machine-readable artifact, (in an ideal world) the mathematics remains permanently operational and reconstructable, entirely independent of living memory.</p>
+
+            <p>Said that, in the context of this re-evaluation, we must acknowledge that the sweeping ambitions of the <em>QED Manifesto</em> remain, for the most part, unfulfilled. In 2007, Freek Wiedijk [5] noted in his retrospective that the primary obstacles were the</p>
+
+            <blockquote>
+                <p>“limited size of the formalization community and the absence of a killer application to catalyze widespread adoption.”</p>
+            </blockquote>
+
+            <p>By March 2026, the situation is evolving. What about the size of the formalization community? It’s broadening. Projects like Mathlib have attracted contributors from computer science, the tech industry, and even high school students. Lean’s programming environment has surpassed 200,000 installations<sup><a href="#fn3" id="ref3">3</a></sup>. The ACM’s 2025 Programming Languages Software Award called Lean “the <em>de facto</em> choice for AI-based systems of mathematical reasoning.” Autoformalization tools, <em>i.e.</em>, systems that translate informal mathematics into machine-checkable code, are maturing rapidly, compressing what once required years of expert labor into weeks or less (see the work of Axiom, Cajal, Harmonic, Logical Intelligence, Math Inc; there is a chance this list is not incomplete). And (see [6])</p>
+
+            <blockquote>
+                <p>“only about 0.05% of mathematics has been formalized, with uncertainty of at least a factor of two.”</p>
+            </blockquote>
+
+            <p>What about the killer application? A fairly arid one may now be in sight, though it may not have been in the imagination of people in the '90s. It is entirely possible that AI's appetite for verified data will only grow more voracious. Formal proofs are the highest-quality mathematical data that exists, because their correctness is guaranteed by construction. At the same time, the infrastructure on which AI itself runs, including authorization policies, cryptographic protocols, compiler correctness, increasingly demands formal verification [7]. Thus, the formalization of mathematics and the verification of AI infrastructure seem to be converging into the same problem. As machine intelligence begins to automate the very proofs it requires to function correctly, the pressure moves downstream.</p>
+
+            <p>As Terence Tao has observed in recent discussions, the cost of generating formal proofs is steadily decreasing, meaning the rest of the formalization ecosystem will inevitably need to be upgraded to handle the incoming flood of formalized mathematics.</p>
+
+            <p>The implication is stark. It’s highly plausible that mathematics will remain about techniques, definitions of new objects, production of proofs, but there is a new opportunity and bottleneck: storage, discovery, assembly, governance, reuse for formalized stuff, and even <em>in-formalization</em> to remove mechanical noise and bring back human legibility.</p>
+
+            <p>Ultimately, a modern reckoning with the QED Manifesto requires us to deal with a far larger, more complicated beast than the one faced in 1994. It needs to start with a fundamental upgrade to how we collaborate, both among ourselves and with machines, and how we distribute knowledge, abandoning an architecture still tied to PDFs. In fact, we may need to envision a system where researchers no longer write traditional papers, but instead collect and assemble <em>atomic mathematical artifacts</em> on demand. Papers will consequently evolve into spaces reserved for opinions, open problems, and new connections. Or we may simply produce <em>ad hoc</em> papers from code pipelines, meant entirely for communication and reflection rather than archival recording. Under this light, the objective of a new version of the manifesto has evolved far beyond the formalization of existing knowledge. We face two hurdles: engineering and culture. It rarely comes down to anything else, I suppose.</p>
+
+            <p>Let’s start with engineering. The challenge resides in architecting a scalable, automated ecosystem, based potentially on a permissionless protocol, capable of governing provenance, discovery, and mechanical verification within a landscape where the distinction between human and AI-generated discovery/formalization is going to be vague. An emergent ecosystem of autonomous agents that will crawl the QED system will require a streamlined discovery layer for mathematical primitives. What is the best way to build this? Is it a humongous Mathlib? Is this distributed or centralized? Dealing with scale is tricky.</p>
+
+            <p>As if the sheer mass of mathematics were not enough, the system is expected to naturally propagate into theoretical physics, and subsequently, into rigorous engineering. In cybersecurity, it will facilitate the formal verification of protocols. Eventually, systems biology and other complex fields will follow.</p>
+
+            <p><em>Pushing to the edge of a pot that could crack</em>, this allows for a practical restatement of the Church-Turing thesis. The paradigm shifts from models of computation to evaluating our capacity for formal expression. The boundary of computation is the boundary of knowledge and it becomes defined by language: if I can express a concept formally, the system can compute it. If nothing else, this neatly proves Donald Knuth was entirely correct when he noted that</p>
+
+            <blockquote>
+                <p>“Science is what we understand well enough to explain to a computer. Art is everything else we do.”</p>
+            </blockquote>
+
+            <p>And one day we may even need to launch a research program with the concrete goal of defining a <em>difficulty metric</em> for the formalization of different scientific disciplines, based on available conceptual precision, the need for experiments (real-world verifiability beyond language), and other dimensions.</p>
+
+            <p>Beyond fun speculations, what does the workflow look like? A mathematician writes in LaTeX (maybe). An AI system identifies what is missing to complete a proof, autoformalizes the argument, and commits the result to a shared registry. Another mathematician, somewhere else, does the same. Agents search the registry, discover that a needed lemma is already proved and available, and wire it into the new proof automatically. The entire cycle (writing, formalizing, committing, discovering, reusing) becomes continuous and largely automated. This is <em>micropublishing</em>, where an ISBN-like hash is associated with every mathematical artifact.</p>
+
+            <blockquote>
+                <p><em>In this universe, the atoms are not (or not only) PDF papers, but the artifacts themselves: theorems, proofs, definitions, data, examples, and other things beyond my imagination.</em></p>
+            </blockquote>
+
+            <p>Mathematicians will architect the <em>blueprints</em>. Some lemmas will be found ready in the QED system, while others will still demand sweat and tears (and tokens).</p>
+
+            <p>The first engineering problem is <em>content addressing</em>: the necessity of identifying formal mathematical objects by a cryptographic hash of their underlying content rather than their location in a repository. Without this mechanism, there is no canonical way to reference theorems securely across distributed environments. Current approaches to this problem include Hashmath [8] and a proposed content-addressed referencing scheme for Lean 4, which identifies declarations by hashing their normalized types and proof terms [9]. By solving the referencing problem, we can implement a protocol for <em>radical traceability</em> with precise guarantees. The system ensures correctness (defined solely by the Lean kernel's acceptance), permanent and deterministically timestamped cryptographic attribution, immutability of accepted commits, and semantic discoverability, alongside a best-effort novelty filter to flag near-duplicates.</p>
+
+            <p>However, this architecture introduces a novel threat model. The primary vulnerability is <em>semantic corruption</em>, wherein a definition is formally accepted by the kernel but remains conceptually flawed, thereby quietly compromising the utility of all downstream theorems. Secondary risks include <em>identity compromise</em>, resulting in stolen priority rather than malicious code execution, and <em>embedding manipulation</em>, where actors might craft statements specifically to bypass novelty detection and flood the library with redundant formulations. People will find solutions; it would be a remarkable irony if the most effective one turned out to be a human peer-review process for formal statements.</p>
+
+            <p>Enough with engineering. Despite the long digression, I didn’t forget about culture. The heaviest friction in building the system is culture, unsurprisingly. A good architecture can guarantee cryptographic attribution, but it cannot inject in people the desire to contribute. The core problem remains incentive alignment. The traditional economy of mathematics and science is so entirely captured by a rigid hierarchy of journals and citation numbers that a researcher's identity and curriculum is indistinguishable from their bibliography.</p>
+
+            <p>Solving this requires shifting mathematical practice toward what David Donoho [10] identifies as the catalyst for AI’s explosive growth: the transition to a <em>common task framework</em>, a paradigm driven by objective scoring and shared tasks. By introducing mechanisms familiar to software engineering and machine learning (such as the immutable provenance of Git, or the competitive, scorable leaderboards of Kaggle) the act of <em>committing a theorem</em> becomes a measurable, recognizable achievement. Redesigning these incentives is fundamentally a cultural challenge, but solving it would trigger a shift in how mathematical labor is valued, ultimately aligning the prestige of a contribution with the utility<sup><a href="#fn4" id="ref4">4</a></sup> of the theorem and its surrounding material. This utility could even be measured, for example, via network-theoretic parameters that quantify the dependencies of subsequent results and the impact on what is already in the system. Naturally, all of this remains perfectly compatible with writing papers.</p>
+
+            <p>More importantly, it leaves the unmeasurable intact and will hopefully give us ample opportunity to value it. By automating some of the mechanical aspects of <em>verification</em> and <em>retrieval</em>, we can better focus on the <em>dark matter</em> of mathematics (“the surrounding material” above): the development of new heuristics, the identification of cross-disciplinary analogies, and the informal exchanges where the actual direction of research is set. This is not about the aesthetic of a proof, but about the high-bandwidth human communication that precedes its recording (often introspective, even with ourselves in pleasure and pain).</p>
+
+            <p>Yet, such a direction invites its own critiques (hardly a complete catalog). Franz Och [11] has raised a quite beautiful one: the true dependencies of a discovery are not necessarily visible from the “declared commit history”. There is a distinction between the provenance that appears in the formal artifact and the actual cognitive provenance and the chain of reasoning that led to the result. In other terms,</p>
+
+            <blockquote>
+                <p>Humans as much as machines may have arrived at a theorem through a path that bears no structural relation to the artifacts it cites.</p>
+            </blockquote>
+
+            <p>Franz's point generalizes: in any system where the formal output is a distilled or cleaned version of a messy generative process, there is a latent layer of reasoning that the artifact does not express. Some mathematicians argue that the important information in mathematics lives between the theorems. A content-addressed registry captures only what was produced. Wanting to learn more about this deep subject, I came across the expression <em>invisible mathematics</em> (arguably a better choice than my <em>dark matter of mathematics</em>) and found it perfectly captures the concept. For anyone interested, Emily Riehl has a great talk [12].</p>
+
+            <p>A second criticism targets the premise of formalization itself. If AI can generate a polished PDF paper on demand, why formalize at all? The short (tautological) answer: we lack a certificate of correctness. By the way, nobody prevents anyone from writing papers today. Writing is not the bottleneck; retrieval and reuse are. The purpose of formalization is not to stop anyone from producing mathematics in any format they choose. It is to ensure that the results worth finding again, the results that other humans or machines will want to build on, are represented in a form that is mechanically searchable, mechanically verifiable, and mechanically composable. The formal artifact is indeed not a replacement for the paper; it is the residue that persists in a kind of <em>hyperuranion</em> of verified results, available for discovery long after the paper itself has been forgotten. At the risk of abusing poetry, if we accept that mathematical truths have always existed then our engineering task shifts from invention to a form of epistemic restoration, and rather than building a database, we are engaged in a recovery project.</p>
+
+            <p>To conclude, let's move for a moment outside of mathematics. In a recent essay, Michael Nielsen [13] with his usual lucidity discussed the concept of <em>scientific dysergy</em>: individually innocuous discoveries that, in combination, become catastrophic. There is a good chance that AI will traverse the science tree faster than humans can. The probability of dangerous combinations increases accordingly. I do not attempt to refute this. I frame a mitigation strategy as a traceability problem. If we cannot prevent dangerous capabilities from being discovered, we can make their convergence visible. Augmenting scientific discourse with formalization, commit histories, and dependency graphs (a form of radical traceability) makes convergence to dysergy structurally visible, rather than leaving it buried in prose scattered across papers that five people on the planet read entirely and fewer still understand collectively. The feasibility of such a system, which would naturally start with mathematics, remains future engineering work or utopian nonsense, depending on the point of view.</p>
+
+            <div class="acknowledgements">
+                <p><em>Acknowledgements.</em> This text carries the imprint of recent conversations with Andrea Borghini, Alberto Pepe, Claudio Silva, Evan Miyazono, Francesca Innocenti, Franz Och, Jeanine Banks, Keith Ballinger, Leo De Moura, Luca Foschini, Marco Argenti, Marcello Paris, Meng Lu, Michael Brenner, Patrick Shafto, Sam Schlesinger, Terence Tao, Violet Peng, and Xinze Li. I thank them for sparing both their time and their patience. As Gian-Carlo Rota famously noted in 1996 [14], a long acknowledgment section is the best way to make friends in mathematics. I hope the preceding list suffices. As always, all opinions, imprecisions, and remaining errors are entirely my own (assuming free will).</p>
+            </div>
+        </section>
+
+        <footer class="footnotes">
+            <ol>
+                <li id="fn1">
+                    I enjoy establishing some definitions here: <em>Absolute.</em> A statement or fact that is unconditionally valid across all contexts, perspectives, and situations. It exists entirely independently of human belief, culture, or subjective interpretation. <em>Permanent.</em> A statement or fact that remains unchanging over time. It is eternal and completely unaffected by historical shifts, physical decay, or the passage of eras. <a href="#ref1" class="back-link">↩</a>
+                </li>
+                <li id="fn2">
+                    Here is a fragment of the second course from Chapter 60 (in the Urquhart-Motteux translation): “...they give him lampreys with hippocras sauce: gurnards, salmon trouts, barbels, sturgeons, roaches, mackerels, maids, plaice, sword-fish, skate-fish, soles, tunnies, mussels, silver eels, lobsters, pickerels, golden carps, crayfish, dace, bleaks, salmons, shrimps, tenches, congers, dolphins, porpoises, fresh cods, bases, shads, flounders, sea-nettles, mullets, turbots, gudgeons, dories, haddocks, perches, pikes, crab-fish, halibuts..." Beautiful. <a href="#ref2" class="back-link">↩</a>
+                </li>
+                <li id="fn3">
+                    I don't intend to be Lean-centric here. <a href="#ref3" class="back-link">↩</a>
+                </li>
+                <li id="fn4">
+                    I use "utility" here in the broadest possible sense, referring not merely to narrow applications, but to the structural importance of a result within the mathematical graph—its power to simplify existing proofs, its role as a necessary dependency for new conjectures, or its capacity to bridge previously disconnected subfields. <a href="#ref4" class="back-link">↩</a>
+                </li>
+            </ol>
+        </footer>
+
+        <section class="references">
+            <h2>References</h2>
+            <p>[1] The QED Group. "The QED Manifesto." Automated Deduction — CADE-12, edited by Alan Bundy, Springer Berlin Heidelberg, 1994, pp. 238–251.</p>
+            <p>[2] Wigner, E. P. (1960). "The unreasonable effectiveness of mathematics in the natural sciences.” Richard Courant lecture in mathematical sciences delivered at New York University, May 11, 1959". <em>Communications on Pure and Applied Mathematics</em>. 13 (1): 1–14.</p>
+            <p>[3] Bennett, Charles H. (1988), "Logical Depth and Physical Complexity", in Herken, Rolf (ed.), <em>The Universal Turing Machine: a Half-Century Survey</em>, Oxford U. Press, pp. 227–257.</p>
+            <p>[4] Patrick Massot, Why formalize mathematics?</p>
+            <p>[5] Wiedijk, F. (2007). The QED Manifesto Revisited. <em>Studies in Logic, Grammar and Rhetoric</em>, 10(23), 121–133.</p>
+            <p>[6] Cajal Technologies. Mathematics, AI, and Formalization: The State of Play. Cajal Blog, March 20 2026.</p>
+            <p>[7] Leonardo De Moura, When AI Writes the World's Software, Who Verifies It? 2026-02-28.</p>
+            <p>[8] Sam Schlesinger, Hashmath. <a href="https://github.com/SamuelSchlesinger/hashmath" target="_blank">https://github.com/SamuelSchlesinger/hashmath</a>.</p>
+            <p>[9] Matteo Paris, Xinze Li, <a href="https://github.com/marcellop71/CA" target="_blank">https://github.com/marcellop71/CA</a>.</p>
+            <p>[10] David Donoho, Data Science at the Singularity, <a href="https://arxiv.org/abs/2310.00865" target="_blank">arXiv:2310.00865</a> [stat.OT].</p>
+            <p>[11] Franz Och, Personal communications, March 2026.</p>
+            <p>[12] Emily Riehl, Formalizing invisible mathematics: case studies from higher category theory, (BPRW03) Big proof: formalizing mathematics at scale, 2025.</p>
+            <p>[13] Michael Nielsen, "Which Future?" Astera Institute, February 17, 2026.</p>
+            <p>[14] Rota, Gian-Carlo. "Ten Lessons I Wish I Had Been Taught." <em>Notices of the AMS</em>, vol. 44, no. 1, Jan. 1997, pp. 22–25.</p>
+        </section>
+    </article>
+
+</body>
+</html>
