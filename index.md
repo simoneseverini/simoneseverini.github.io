@@ -1,3 +1,6 @@
+Index · HTML
+Copy
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +8,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title></title>
   <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      border: none;
+      outline: none;
+    }
     body {
       font-family: 'Times New Roman', Times, serif;
-      margin: 40px;
+      padding: 40px;
     }
     ol {
       padding-left: 1.5em;
