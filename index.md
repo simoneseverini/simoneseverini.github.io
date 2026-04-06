@@ -34,7 +34,8 @@ layout: null
 </head>
 <body>
   <ol>
-    <li><a href="infrastructure-for-mathematics.html">Infrastructure for Mathematics, April 5 2026</a></li>
+    <li><a href="infrastructure-for-mathematics.html">Infrastructure for Mathematics, April 5, 2026</a></li>
+    <li><a href="market-size-quantum-computing.html">The market size of quantum computing: a tale of mystery and imagination, February 11, 2025</a></li>
   </ol>
 </body>
 </html>
