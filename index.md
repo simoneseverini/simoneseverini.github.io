@@ -34,7 +34,7 @@ layout: null
 </head>
 <body>
   <ol>
-    <li><a href="#">Infrastructure for Mathematics, April 5, 2026</a></li>
+    <li><a href="infrastructure-for-mathematics.html">Infrastructure for Mathematics, April 5, 2026</a></li>
   </ol>
 </body>
 </html>
