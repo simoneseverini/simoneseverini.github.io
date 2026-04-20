@@ -39,6 +39,7 @@ layout: null
     <li><a href="https://arxiv.org/abs/2505.21744">Computocene: Notes from an Age of Observation, May 27, 2025</a></li>
      <li><a href="market-size-quantum-computing.html">The market size of quantum computing: A tale of mystery and imagination, February 11, 2025</a></li>
     <li><a href="https://www.libreriauniversitaria.it/terra-qubit-fisica-quantistica-confini/libro/9791280606105">Nella terra dei qubit. La fisica quantistica e i confini dell'informatica, Trèfoglie, December 16, 2022</a></li>
+    <li><a href="Storia di matematici inutili Aprile 19 2026.pdf">Storia di matematici inutili, Winter 2026</a></li>
   </ol>
 </body>
 </html>
