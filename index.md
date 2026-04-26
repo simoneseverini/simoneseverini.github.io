@@ -43,6 +43,7 @@ layout: null
     <li><a href="https://www.libreriauniversitaria.it/terra-qubit-fisica-quantistica-confini/libro/9791280606105">Nella terra dei qubit. La fisica quantistica e i confini dell'informatica, Trèfoglie, December 16, 2022 [libro]</a></li>
     <li><a href="Storia di matematici inutili Aprile 25 2026.pdf">Storia di matematici inutili, 2026 [novel/romanzo]</a></li>
     <li><a href="https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22Simone+Severini%22&terms-0-field=author&classification-computer_science=y&classification-eess=y&classification-mathematics=y&classification-physics=y&classification-physics_archives=all&classification-q_biology=y&classification-q_finance=y&classification-statistics=y&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first" target="_blank">My papers in arXiv, 2002-2018 ca.</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Simone+Severini%5BAuthor%5D&sort=date" target="_blank">My papers in PubMed, 2004-2018 ca.</a></li>
   </ol>
 </body>
 </html>
