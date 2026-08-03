@@ -1,7 +1,18 @@
 ---
 layout: null
 ---
+<!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title> <!-- Completely empty title -->
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     body {
       font-family: 'Times New Roman', Times, serif;
@@ -11,14 +22,6 @@ layout: null
       padding: 60px 20px;
       max-width: 700px;          /* Prevents long text lines on wide screens */
       margin: 0 auto;            /* Centers layout on screen */
-    }
-
-    h1 {
-      font-size: 1.8rem;
-      font-weight: normal;
-      margin-bottom: 2rem;
-      border-bottom: 1px solid #e5e0d8;
-      padding-bottom: 10px;
     }
 
     ol {
@@ -51,8 +54,6 @@ layout: null
 </head>
 <body>
 
-  <h1>Simone Severini</h1>
-
   <ol>
     <li><a href="infrastructure-for-mathematics.html">Infrastructure for Mathematics, April 5, 2026</a> <span class="meta-tag">[essay]</span></li>
     
@@ -80,11 +81,10 @@ layout: null
 
     <li><a href="https://www.aphex.it/letter-to-rozumot-two-or-more-mathematicses/" target="_blank">Simone Severini, “Letter to Rozumot: Two (or More) Mathematicses” APhEx 33, 2026, pp. 302-322.</a> <span class="meta-tag">[paper]</span></li>
     
-    <li><a href="https://arxiv.org/abs/2606.03303" target="_blank">Po-Nien Kung et al., “LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks” (arXiv:2606.03303)</a> <span class="meta-tag">[paper]</span></li>
+    <li><a href="https://arxiv.org/abs/2606.03303" target="_blank">Po-Nien Kung, Linfeng Song, Dawsen Hwang, Jinsung Yoon, Chun-Liang Li, Simone Severini, Mirek Olšák, Edward Lockhart, Quoc V Le, Burak Gokturk, Thang Luong, Tomas Pfister, Nanyun Peng, “LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks” (arXiv:2606.03303)</a> <span class="meta-tag">[paper]</span></li>
     
     <li><a href="https://arxiv.org/abs/2604.24797" target="_blank">Xinze Li, Nanyun Peng, Simone Severini, and Patrick Shafto, “The Network Structure of Mathlib” (arXiv:2604.24797)</a> <span class="meta-tag">[paper]</span></li>
   </ol>
 
 </body>
 </html>
-
