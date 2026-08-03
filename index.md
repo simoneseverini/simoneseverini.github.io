@@ -48,7 +48,7 @@ layout: null
     <li><a href="A History of Useless Mathematicians extract.pdf">A History of Useless Mathematicians (Ch1) [translation of Storia di Mathematici Inutili, chapter 1]</a></li>
    <li><a href="https://www.aphex.it/letter-to-rozumot-two-or-more-mathematicses/" target="_blank">Simone Severini, “Letter to Rozumot: Two (or More) Mathematicses” APhEx 33, 2026, pp. 302-322. [paper]</a></li>
     <li><a href="https://arxiv.org/abs/2606.03303" target="_blank">Po-Nien Kung et al., “LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks” (arXiv:2606.03303) [paper]</a></li>
-<li><a href="https://arxiv.org/abs/2604.24797" target="_blank">Xinze Li, Nanyun Peng, Simone Severini, and Patrick Shafto, “The Network Structure of Mathlib” (arXiv:2604.24797) paper]</a></li>
+<li><a href="https://arxiv.org/abs/2604.24797" target="_blank">Xinze Li, Nanyun Peng, Simone Severini, and Patrick Shafto, “The Network Structure of Mathlib” (arXiv:2604.24797) [paper]</a></li>
 
   </ol>
 </body>
