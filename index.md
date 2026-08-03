@@ -47,7 +47,7 @@ layout: null
     <li><a href="https://patents.google.com/?inventor=Simone+Severini" target="_blank">Patents in Google Patents</a></li>
     <li><a href="A History of Useless Mathematicians extract.pdf">A History of Useless Mathematicians (Ch1)</a></li>
 
-   Simone Severini, “Letter to Rozumot: Two (or More) Mathematicses”, in “APhEx 33”, 2026, pp. 302-322. https://www.aphex.it/letter-to-rozumot-two-or-more-mathematicses/
+   <li><a Simone Severini, “Letter to Rozumot: Two (or More) Mathematicses”, in “APhEx 33”, 2026, pp. 302-322. https://www.aphex.it/letter-to-rozumot-two-or-more-mathematicses/ </a></li>
   </ol>
 </body>
 </html>
