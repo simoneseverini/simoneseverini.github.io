@@ -45,8 +45,11 @@ layout: null
     <li><a href="https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=%22Simone+Severini%22&terms-0-field=author&classification-computer_science=y&classification-eess=y&classification-mathematics=y&classification-physics=y&classification-physics_archives=all&classification-q_biology=y&classification-q_finance=y&classification-statistics=y&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first" target="_blank">Papers in arXiv, 2002-2018 ca. [mostly quantum, combinatorics]</a></li>
     <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Simone+Severini%5BAuthor%5D&sort=date" target="_blank">Papers in PubMed, 2004-2018 ca. [mostly computational biology]</a></li>
     <li><a href="https://patents.google.com/?inventor=Simone+Severini" target="_blank">Patents in Google Patents</a></li>
-    <li><a href="A History of Useless Mathematicians extract.pdf">A History of Useless Mathematicians (Ch1)</a></li>
-   <li><a href="https://www.aphex.it/letter-to-rozumot-two-or-more-mathematicses/" target="_blank">Simone Severini, “Letter to Rozumot: Two (or More) Mathematicses” APhEx 33, 2026, pp. 302-322.</a></li>
+    <li><a href="A History of Useless Mathematicians extract.pdf">A History of Useless Mathematicians (Ch1) [translation of Storia di Mathematici Inutili, chapter 1]</a></li>
+   <li><a href="https://www.aphex.it/letter-to-rozumot-two-or-more-mathematicses/" target="_blank">Simone Severini, “Letter to Rozumot: Two (or More) Mathematicses” APhEx 33, 2026, pp. 302-322. [paper]</a></li>
+    <li><a href="https://arxiv.org/abs/2606.03303" target="_blank">Po-Nien Kung et al., “LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks” (arXiv:2606.03303) [paper]</a></li>
+<li><a href="https://arxiv.org/abs/2604.24797" target="_blank">Xinze Li, Nanyun Peng, Simone Severini, and Patrick Shafto, “The Network Structure of Mathlib” (arXiv:2604.24797) paper]</a></li>
+
   </ol>
 </body>
 </html>
