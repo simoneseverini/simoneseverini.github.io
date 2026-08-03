@@ -46,8 +46,7 @@ layout: null
     <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Simone+Severini%5BAuthor%5D&sort=date" target="_blank">Papers in PubMed, 2004-2018 ca. [mostly computational biology]</a></li>
     <li><a href="https://patents.google.com/?inventor=Simone+Severini" target="_blank">Patents in Google Patents</a></li>
     <li><a href="A History of Useless Mathematicians extract.pdf">A History of Useless Mathematicians (Ch1)</a></li>
-
-   <li><a Simone Severini, “Letter to Rozumot: Two (or More) Mathematicses”, in “APhEx 33”, 2026, pp. 302-322. https://www.aphex.it/letter-to-rozumot-two-or-more-mathematicses/ </a></li>
+   <li><a href="https://www.aphex.it/letter-to-rozumot-two-or-more-mathematicses/" target="_blank">Simone Severini, “Letter to Rozumot: Two (or More) Mathematicses” (APhEx 33)</a></li>
   </ol>
 </body>
 </html>
