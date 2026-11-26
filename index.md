@@ -85,5 +85,8 @@ layout: null
     <li><a href="https://arxiv.org/abs/2604.24797" target="_blank">Xinze Li, Nanyun Peng, Simone Severini, and Patrick Shafto, “The Network Structure of Mathlib” (arXiv:2604.24797)</a> <span class="meta-tag">[paper]</span></li>
   </ol>
 
+  <li><a href="https://leap-lean.github.io/" target="_blank">Leap: An open, trackable prover that works alongside mathematicians. LEAP turns a mathematical argument into a Lean proof that the kernel checks. Every lemma it proposes, every failed attempt and every repair is kept in a proof DAG you can inspect, resume and steer.</span></li>
+  </ol>
+
 </body>
 </html>
