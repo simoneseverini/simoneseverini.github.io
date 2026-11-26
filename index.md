@@ -83,9 +83,9 @@ layout: null
     <li><a href="https://arxiv.org/abs/2606.03303" target="_blank">Po-Nien Kung, Linfeng Song, Dawsen Hwang, Jinsung Yoon, Chun-Liang Li, Simone Severini, Mirek Olšák, Edward Lockhart, Quoc V Le, Burak Gokturk, Thang Luong, Tomas Pfister, Nanyun Peng, “LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks” (arXiv:2606.03303)</a> <span class="meta-tag">[paper]</span></li>
     
     <li><a href="https://arxiv.org/abs/2604.24797" target="_blank">Xinze Li, Nanyun Peng, Simone Severini, and Patrick Shafto, “The Network Structure of Mathlib” (arXiv:2604.24797)</a> <span class="meta-tag">[paper]</span></li>
-  </ol>
 
     <li><a href="https://leap-lean.github.io/" target="_blank">LEAP Team (Google Cloud, Google Research, Google DeepMind, and UCLA), “LEAP: An Open, Trackable Prover That Works Alongside Mathematicians” (leap-lean.github.io)</a> <span class="meta-tag">[project]</span></li>
+    </ol>
 
 </body>
 </html>
